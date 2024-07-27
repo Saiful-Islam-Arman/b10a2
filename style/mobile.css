@@ -1,0 +1,58 @@
+
+
+
+@media screen and (max-width: 576px) {
+    body{
+        padding: 0px 15px;
+    }
+    .humbergar{
+        display: block
+    }
+    .menu{
+        display: none;
+    }  
+
+    /* hero section */
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-title{
+        font-size: 36px;
+        line-height: 120%;
+    }
+    .hero-right{
+        margin-bottom: -130px;
+    }
+    .hero-btn-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn-hero, .btn-hero-2 {
+        font-size: 14px;
+        padding: 12px 20px;
+    }    
+    .middle-node{
+        bottom: 510px;
+        left: 185px;
+    }
+    .bottom-node{
+        bottom: 355px;
+        left: 10px;
+    }
+
+    /*** calculator area style ***/
+    .calculator-area{
+        grid-template-columns: 1fr;
+    }
+
+    /*** feedback area style ***/
+    .feedback-area{
+        grid-template-columns: 1fr;
+    }
+
+    /*** footer style ***/
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,41 @@
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    body{
+        padding: 0px 15px;
+    }
+    
+    /*** hero section ***/
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-right{
+        margin-bottom: -100px;
+    }
+    .middle-node{
+        bottom: 510px;
+        left: 185px;
+    }
+    .bottom-node{
+        bottom: 290px;
+        left: 10px;
+    }
+
+    /*** calculator area ***/
+    .calculator-area{
+        grid-template-columns: 1fr;
+    }
+
+    /*** feedback area style ***/
+    .feedback-area{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*** footer style ***/
+    .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
