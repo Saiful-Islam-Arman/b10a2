@@ -4,17 +4,36 @@
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     body{
+        margin: 0px auto;
         padding: 0px 15px;
     }
     
+    .nav-item{
+        padding: 10px 14px;
+        justify-content: space-between;
+    }
+    .nav-item a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    #active-link{
+        background-color: brown;
+        border-radius: 8px;
+        padding: 10px 14px;
+        
+    }
+
+
     /*** hero section ***/
     .hero-section{
         display: flex;
         flex-direction: column;
     }
-    .hero-right{
+    /* .hero-right{
         margin-bottom: -100px;
-    }
+    } */
     .middle-node{
         bottom: 510px;
         left: 185px;
@@ -24,9 +43,31 @@
         left: 10px;
     }
 
+    /*** habit area style ***/
+    .habit-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*** run extra area style ***/
+    .run-extra-container{
+        column-gap: 10px;
+    }
+    .run-extra-img{
+        width: 94%;
+    }
+
+    /*** meet our team area style ***/
+    .team-card-container1,
+    .team-card-container2{
+        gap:10px;
+    }
+
     /*** calculator area ***/
     .calculator-area{
         grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0px 30px 40px 30px;
     }
 
     /*** feedback area style ***/

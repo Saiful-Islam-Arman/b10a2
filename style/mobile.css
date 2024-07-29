@@ -4,6 +4,7 @@
 @media screen and (max-width: 576px) {
     body{
         padding: 0px 15px;
+        margin: 0px auto;
     }
     .humbergar{
         display: block
@@ -41,9 +42,56 @@
         left: 10px;
     }
 
+    /*** habit area style ***/
+    .habit-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*** run extra area style ***/
+    .run-extra-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .run-extra-img{
+        width: 94%;
+    }
+
+    /*** training and exercise area style ***/
+    .training-img-with-content-3,
+    .training-img-with-content-6{
+        display: none;
+    }
+
     /*** calculator area style ***/
     .calculator-area{
+        display: grid;
         grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    /*** meat our team area style ***/
+    .team-card-container{
+        padding: 10px;
+    }
+    .team-card3,
+    .team-card6{
+        display: none;
+        width: 100%;
+    }
+    .team-card1,
+    .team-card2,
+    .team-card3,
+    .team-card4,
+    .team-card5,
+    .team-card6{
+        width: 100%;
+    }
+    .team-card-container1,
+    .team-card-container2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:10px;
     }
 
     /*** feedback area style ***/
