@@ -77,6 +77,11 @@
 
     /*** footer style ***/
     .footer-container{
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-descriptin{
+        padding: 20px 50px 0px 0px;
     }
 }
