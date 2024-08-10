@@ -248,7 +248,7 @@ p{
     display: flex;
 }
 .training-img-with-content-1{
-    background-image: url(/assets/image/exercise1.jpg);
+    background-image: url(../assets/image/exercise1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -263,7 +263,7 @@ p{
     background: rgba(6, 255, 210, 0.5);
 }
 .training-img-with-content-2{
-    background-image: url(/assets/image/exercise2.png);
+    background-image: url(../assets/image/exercise2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -278,7 +278,7 @@ p{
     background: rgba(255, 0, 0, 0.3);
 }
 .training-img-with-content-3{
-    background-image: url(/assets/image/exercise3.png);
+    background-image: url(../assets/image/exercise3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -293,7 +293,7 @@ p{
     background: rgba(0, 0, 0, 0.5);
 }
 .training-img-with-content-4{
-    background-image: url(/assets/image/exercise4.png);
+    background-image: url(../assets/image/exercise4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -308,7 +308,7 @@ p{
     background: rgba(0, 0, 0, 0.5);
 }
 .training-img-with-content-5{
-    background-image: url(/assets/image/exercise5.jpg);
+    background-image: url(../assets/image/exercise5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -323,7 +323,7 @@ p{
     background: rgbargba(66, 255, 0, 0.3);
   }
 .training-img-with-content-6{
-    background-image: url(/assets/image/exercise6.jpg);
+    background-image: url(../assets/image/exercise6.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
