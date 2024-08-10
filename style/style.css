@@ -457,7 +457,7 @@ select{
 }
 .team-card1{
     position: relative;
-    background-image: url(/assets/image/trainer1.png);
+    background-image: url(../assets/image/trainer1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -466,7 +466,7 @@ select{
     border-radius: 12px;
 }
 .team-card2{
-    background-image: url(/assets/image/trainer2.png);
+    background-image: url(../assets/image/trainer2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -475,7 +475,7 @@ select{
     border-radius: 12px;
 }
 .team-card3{
-    background-image: url(/assets/image/trainer3.png);
+    background-image: url(../assets/image/trainer3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -484,7 +484,7 @@ select{
     border-radius: 12px;
 }
 .team-card4{
-    background-image: url(/assets/image/trainer4.png);
+    background-image: url(../assets/image/trainer4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -493,7 +493,7 @@ select{
     border-radius: 12px;
 }
 .team-card5{
-    background-image: url(/assets/image/trainer5.png);
+    background-image: url(../assets/image/trainer5.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -502,7 +502,7 @@ select{
     border-radius: 12px;
 }
 .team-card6{
-    background-image: url(/assets/image/trainer6.png);
+    background-image: url(../assets/image/trainer6.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
